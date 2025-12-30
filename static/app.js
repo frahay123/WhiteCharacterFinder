@@ -84,10 +84,10 @@ async function handleFile(file) {
     formData.append('file', file);
 
     try {
-            // API endpoint - change this to your Cloud Run URL
+            // API endpoint - Cloud Run backend
             const API_URL = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1'
                 ? '/analyze'  // Local development
-                : 'https://YOUR-CLOUD-RUN-URL.run.app/analyze';  // Production
+                : 'https://fairefile-631558605826.us-east4.run.app/analyze';  // Production
             
             const response = await fetch(API_URL, {
                 method: 'POST',
