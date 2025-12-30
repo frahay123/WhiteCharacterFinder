@@ -186,7 +186,9 @@ body {
 /* Hero Section */
 .hero {
     text-align: center;
-    padding: 2rem 0 2.5rem;
+    padding: 2.5rem 0 3rem;
+    max-width: 900px;
+    margin: 0 auto;
 }
 
         .hero h1 {
