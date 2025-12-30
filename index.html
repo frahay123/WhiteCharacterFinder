@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TrapScanner - See What AI Sees In Your Assignment</title>
+    <meta name="description" content="Scan your PDF or DOCX assignment files to detect hidden text, invisible characters, and AI traps before you submit.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="page-wrapper">
+        <!-- Left Ad Sidebar -->
+        <aside class="ad-sidebar">
+            <div class="ad-slot vertical">
+                Ad Space<br>160×600
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Header -->
+            <header class="header">
+                <div class="brand">
+                    <div class="logo">🔍</div>
+                    <div class="brand-text">
+                        <h1>TrapScanner</h1>
+                        <p>Assignment File Auditor</p>
+                    </div>
+                </div>
+                <div class="theme-toggle">
+                    <button class="theme-btn active" id="light-btn" title="Light Mode">☀️</button>
+                    <button class="theme-btn" id="dark-btn" title="Dark Mode">🌙</button>
+                </div>
+            </header>
+
+            <!-- Hero Section -->
+            <section class="hero">
+                <h2>See What <span>AI Sees</span> In Your Files</h2>
+            </section>
+
+            <!-- Upload Zone -->
+            <div class="upload-zone" id="upload-zone">
+                <span class="upload-icon">📄</span>
+                <h3 class="upload-title">Drop your assignment file here</h3>
+                <p class="upload-subtitle">or click to browse your computer</p>
+                <div class="file-types">
+                    <span class="file-type">.pdf</span>
+                    <span class="file-type">.docx</span>
+                </div>
+                <input type="file" id="file-input" accept=".pdf,.docx">
+            </div>
+
+            <!-- Loading State -->
+            <div class="loading" id="loading">
+                <div class="spinner-ring"></div>
+                <p class="loading-text">Scanning for hidden content...</p>
+                <p class="loading-subtext">Checking for white text, invisible characters, and traps</p>
+            </div>
+
+            <!-- Results Section -->
+            <div class="results" id="results">
+                <div class="verdict-card" id="verdict-card">
+                    <div class="verdict-header">
+                        <div class="verdict-icon" id="verdict-icon-box">
+                            <span id="verdict-icon"></span>
+                        </div>
+                        <div class="verdict-text">
+                            <h3 id="verdict-title"></h3>
+                            <p id="verdict-message"></p>
+                        </div>
+                    </div>
+                    <div class="verdict-stats">
+                        <div class="stat-item">
+                            <div class="stat-label">File Name</div>
+                            <div class="stat-value" id="filename"></div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-label">File Type</div>
+                            <div class="stat-value" id="filetype"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="findings-container"></div>
+
+                <div class="action-buttons">
+                    <button class="btn btn-primary" id="scan-again">
+                        <span>🔄</span> Scan Another File
+                    </button>
+                </div>
+            </div>
+
+            <!-- How It Works -->
+            <section class="how-it-works" id="how-it-works">
+                <div class="how-step">
+                    <div class="how-step-number">1</div>
+                    <h4>Upload File</h4>
+                    <p>Drop your PDF or DOCX assignment file</p>
+                </div>
+                <div class="how-step">
+                    <div class="how-step-number">2</div>
+                    <h4>We Scan It</h4>
+                    <p>Detect hidden text, white text, and invisible characters</p>
+                </div>
+                <div class="how-step">
+                    <div class="how-step-number">3</div>
+                    <h4>Get Results</h4>
+                    <p>See exactly what AI tools would see in your file</p>
+                </div>
+            </section>
+
+            <!-- Mobile Ad -->
+            <div class="mobile-ad">
+                Ad Space • 320×100
+            </div>
+
+            <!-- Footer -->
+            <footer class="footer">
+                <p>TrapScanner helps students audit their assignment files. <a href="#">Learn more</a></p>
+            </footer>
+        </main>
+
+        <!-- Right Ad Sidebar -->
+        <aside class="ad-sidebar">
+            <div class="ad-slot vertical">
+                Ad Space<br>160×600
+            </div>
+        </aside>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
