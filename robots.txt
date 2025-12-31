@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /analyze
+
+Sitemap: https://www.fairefile.com/sitemap.xml
+

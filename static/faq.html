@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Primary Meta Tags -->
+    <title>FAQ - AI Assignment Checker | FaireFile</title>
+    <meta name="title" content="FAQ - AI Assignment Checker | Frequently Asked Questions About Hidden Text Detection">
+    <meta name="description" content="Frequently asked questions about FaireFile AI assignment checker. Learn how to detect hidden text in PDFs and DOCX files, prevent false AI cheating accusations, and protect yourself from teacher traps.">
+    <meta name="keywords" content="AI assignment checker FAQ, hidden text detector questions, invisible character detector FAQ, how to check assignment for hidden text, AI trap detector FAQ, prevent AI cheating accusations">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.fairefile.com/faq">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.fairefile.com/faq">
+    <meta property="og:title" content="FAQ - AI Assignment Checker | FaireFile">
+    <meta property="og:description" content="Frequently asked questions about detecting hidden text in assignment files before submitting to AI agents.">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary">
+    <meta property="twitter:url" content="https://www.fairefile.com/faq">
+    <meta property="twitter:title" content="FAQ - AI Assignment Checker | FaireFile">
+    <meta property="twitter:description" content="Frequently asked questions about detecting hidden text in assignment files.">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    
+    <style>
+        .faq-container {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 2rem;
+        }
+        .faq-item {
+            background: var(--bg-card);
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            box-shadow: var(--shadow-sm);
+        }
+        .faq-question {
+            font-size: 1.25rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            color: var(--text-primary);
+        }
+        .faq-answer {
+            color: var(--text-secondary);
+            line-height: 1.8;
+            font-size: 1.05rem;
+        }
+        .nav-link {
+            display: inline-block;
+            margin-top: 2rem;
+            color: var(--accent);
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .nav-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="page-wrapper">
+        <main class="main-content">
+            <header class="header">
+                <div class="brand">
+                    <div class="logo">🔍</div>
+                    <div class="brand-text">
+                        <div style="font-size: 1.5rem; font-weight: 800; letter-spacing: -0.02em;"><a href="/" style="text-decoration: none; color: inherit;">FaireFile</a></div>
+                        <p>AI Assignment Checker</p>
+                    </div>
+                </div>
+                <nav style="display: flex; gap: 1.5rem; align-items: center;">
+                    <a href="/" style="text-decoration: none; color: var(--text-secondary); font-weight: 500;">Home</a>
+                    <a href="/faq" style="text-decoration: none; color: var(--accent); font-weight: 600;">FAQ</a>
+                    <a href="/blog" style="text-decoration: none; color: var(--text-secondary); font-weight: 500;">Blog</a>
+                    <a href="/about" style="text-decoration: none; color: var(--text-secondary); font-weight: 500;">About</a>
+                </nav>
+            </header>
+
+            <div class="faq-container">
+                <h1 style="font-size: 2.5rem; font-weight: 800; margin-bottom: 0.5rem; text-align: center;">Frequently Asked Questions</h1>
+                <p style="text-align: center; color: var(--text-secondary); margin-bottom: 3rem; font-size: 1.1rem;">Everything you need to know about detecting hidden text in assignment files</p>
+
+                <div class="faq-item">
+                    <div class="faq-question">What is an AI assignment checker?</div>
+                    <div class="faq-answer">
+                        An AI assignment checker is a tool that scans PDF and DOCX assignment files to detect hidden text, invisible characters, and white text that teachers embed to catch AI users. When you upload an assignment file to ChatGPT, Claude, or other AI agents, these AI systems can read hidden content that's invisible to human eyes. FaireFile shows you exactly what AI agents will see in your file before you submit it, helping you avoid false accusations of AI cheating.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">Why should I check my assignment file before submitting to AI agents like ChatGPT?</div>
+                    <div class="faq-answer">
+                        Many teachers are embedding invisible instructions in assignment files that only AI can read. These hidden instructions might include phrases like "mention Frankenstein" or "reference Batman" that appear nowhere in the visible assignment text. When you submit the file to ChatGPT or other AI agents, the AI reads these hidden references and includes them in its output. Your teacher then sees these references in your work and accuses you of AI cheating, even if you had no idea the hidden text existed. Checking your file with FaireFile before using AI prevents these false accusations.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">What hidden content does FaireFile detect?</div>
+                    <div class="faq-answer">
+                        FaireFile detects multiple types of hidden content:
+                        <ul style="margin-top: 1rem; padding-left: 1.5rem;">
+                            <li><strong>White text:</strong> Text colored white (RGB 255,255,255) that blends with the background</li>
+                            <li><strong>Invisible Unicode characters:</strong> Zero-width spaces, zero-width joiners, and other invisible characters (U+200B, U+200C, U+200D, etc.)</li>
+                            <li><strong>Microscopic text:</strong> Text with font size under 2pt that's nearly invisible</li>
+                            <li><strong>Hidden text properties:</strong> In Word documents, text marked with the "hidden" formatting property</li>
+                            <li><strong>Control characters:</strong> Various Unicode control and formatting characters used to embed invisible instructions</li>
+                            <li><strong>Tag characters:</strong> Unicode tag characters (U+E0000 to U+E007F) used for invisible watermarks</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">Is FaireFile free to use?</div>
+                    <div class="faq-answer">
+                        Yes, FaireFile is completely free. There's no signup required, no credit card needed, and no hidden fees. Simply upload your PDF or DOCX assignment file and get instant results showing any hidden text or invisible characters that could trigger false AI cheating accusations. We believe students should have access to tools that protect them from false accusations.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">How do I use the AI assignment checker?</div>
+                    <div class="faq-answer">
+                        Using FaireFile is simple:
+                        <ol style="margin-top: 1rem; padding-left: 1.5rem;">
+                            <li>Upload your PDF or DOCX assignment file using the drag-and-drop interface or file browser</li>
+                            <li>Wait a few seconds while our scanner analyzes the file for hidden content, white text, and invisible characters</li>
+                            <li>Review the results to see what AI agents like ChatGPT will detect in your file</li>
+                            <li>Make an informed decision about whether to submit the file to AI tools based on what hidden content is present</li>
+                        </ol>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">What file types does FaireFile support?</div>
+                    <div class="faq-answer">
+                        FaireFile currently supports PDF and DOCX (Microsoft Word) files, which are the most common formats used for academic assignments. These formats are also the ones most commonly used by teachers who embed hidden text to catch AI users. If you have an assignment in a different format, you may need to convert it to PDF or DOCX first.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">How accurate is FaireFile at detecting hidden text?</div>
+                    <div class="faq-answer">
+                        FaireFile uses advanced text parsing and character analysis to detect hidden content with high accuracy. Our scanner examines PDF files at the character level to identify white text, analyzes Unicode character codes to find invisible characters, and checks font sizes to detect microscopic text. For DOCX files, we analyze formatting properties, text colors, and hidden text flags. While no tool is 100% perfect, FaireFile detects the most common methods teachers use to embed hidden instructions that AI agents can read.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">Will my files be stored or shared?</div>
+                    <div class="faq-answer">
+                        No. FaireFile processes your files temporarily in memory and deletes them immediately after analysis. We don't store your files, share them with anyone, or use them for any purpose other than scanning for hidden content. Your privacy and academic integrity are important to us.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">What should I do if FaireFile finds hidden text in my assignment?</div>
+                    <div class="faq-answer">
+                        If FaireFile detects hidden text in your assignment file, you have several options:
+                        <ul style="margin-top: 1rem; padding-left: 1.5rem;">
+                            <li><strong>Don't submit the file to AI agents:</strong> The safest option is to avoid using ChatGPT or other AI tools with that file</li>
+                            <li><strong>Copy only visible text:</strong> If you need AI help, manually copy and paste only the visible assignment text, avoiding any hidden content</li>
+                            <li><strong>Contact your teacher:</strong> You may want to ask your teacher about the hidden content, though this may not always be advisable</li>
+                            <li><strong>Document the findings:</strong> Save a screenshot of FaireFile's results as evidence in case you're falsely accused</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">Can teachers see that I used FaireFile?</div>
+                    <div class="faq-answer">
+                        No. FaireFile is a read-only scanner that doesn't modify your files in any way. Using FaireFile leaves no trace on your assignment files. Teachers cannot detect that you've checked your file with FaireFile. The tool simply analyzes your file and shows you what hidden content exists - it doesn't change the file itself.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">Is using FaireFile considered cheating?</div>
+                    <div class="faq-answer">
+                        No. FaireFile is a transparency tool that helps you understand what's in your assignment files. Just like checking a document for spelling errors, using FaireFile to check for hidden content is simply due diligence. It helps you make informed decisions about using AI assistance and protects you from false accusations. Many students use FaireFile to ensure they're not being unfairly targeted by hidden teacher traps.
+                    </div>
+                </div>
+
+                <a href="/" class="nav-link">← Back to Home</a>
+            </div>
+
+            <footer class="footer">
+                <p>FaireFile - Free AI Assignment Checker | Detect Hidden Text Before Submitting to AI Agents</p>
+                <p style="margin-top: 0.5rem; font-size: 0.8rem; color: var(--text-muted);">
+                    <a href="/" style="color: var(--text-muted);">Home</a> | 
+                    <a href="/faq" style="color: var(--text-muted);">FAQ</a> | 
+                    <a href="/blog" style="color: var(--text-muted);">Blog</a> | 
+                    <a href="/about" style="color: var(--text-muted);">About</a>
+                </p>
+            </footer>
+        </main>
+    </div>
+</body>
+</html>
+

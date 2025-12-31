@@ -349,6 +349,36 @@ def index():
     return send_from_directory('static', 'index.html')
 
 
+@app.route('/faq')
+def faq():
+    return send_from_directory('static', 'faq.html')
+
+
+@app.route('/about')
+def about():
+    return send_from_directory('static', 'about.html')
+
+
+@app.route('/blog')
+def blog():
+    return send_from_directory('static', 'blog.html')
+
+
+@app.route('/blog/<path:filename>')
+def blog_post(filename):
+    return send_from_directory('static/blog', filename)
+
+
+@app.route('/sitemap.xml')
+def sitemap():
+    return send_from_directory('.', 'sitemap.xml', mimetype='application/xml')
+
+
+@app.route('/robots.txt')
+def robots():
+    return send_from_directory('.', 'robots.txt', mimetype='text/plain')
+
+
 @app.route('/analyze', methods=['POST'])
 def analyze():
     if 'file' not in request.files:
