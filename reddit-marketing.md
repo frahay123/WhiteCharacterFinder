@@ -133,17 +133,15 @@ Has anyone else experienced this? How did you handle it?
 
 ### Post Content:
 ```
-Just found out about this and thought I'd share - some professors are embedding invisible text in assignment PDFs/DOCX files to catch students using AI. Stuff like white text, zero-width characters, or microscopic fonts that only AI can read.
+Just found out about this and thought I'd share - some professors are embedding invisible text in assignment PDFs/DOCX files to catch students using AI. Stuff like white text, zero width characters, or microscopic fonts that only AI can read.
 
-When you paste the file into ChatGPT, it sees these hidden instructions (like "mention Batman" or "reference Frankenstein") and includes them in its response. Then you get accused of cheating even though you had no idea the hidden text existed.
 
 I found a free tool online called FaireFile that scans your assignment files before you submit them to any AI. Just upload your PDF or DOCX and it shows you exactly what hidden text, invisible characters, or white text is in there.
 
-No signup required, completely free. Saved me from a potential disaster last week.
 
 www.fairefile.com
 
-Stay safe out there!
+
 ```
 
 ---
